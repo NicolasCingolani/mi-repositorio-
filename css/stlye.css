@@ -436,4 +436,21 @@ header {
     width: 32rem;
     height: 15rem;
   }
+
+  .table__container {
+    margin-bottom: 4rem;
+  }
+
+  .nav__bar li a:hover {
+    color: rgb(168, 165, 165);
+    font-size: x-large;
+  }
+
+  .header__container a img:hover {
+    width: 4.6rem;
+  }
+
+  .footer__icons a i:hover {
+    color: rgb(168, 165, 165);
+  }
 }
