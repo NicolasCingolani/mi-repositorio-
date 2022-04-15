@@ -1,0 +1,22 @@
+#bg__img {
+  background-image: url(../img/index_background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+.card__border {
+  border: solid 1px white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+}
+
+.card__border:hover {
+  transform: scale(1.05);
+}
+
+#bg__img2 {
+  background-image: url(../img/stadium.jpg);
+  background-size: cover;
+}

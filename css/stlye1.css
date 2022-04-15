@@ -38,32 +38,6 @@ footer {
 
 /* CONTENEDOR GRID*/
 
-/*HEADER*/
-header {
-  background-color: black;
-  border-bottom: 1px solid rgb(87, 85, 85);
-}
-.header__container {
-  display: flex;
-  justify-content: center;
-}
-
-.nav__bar {
-  display: flex;
-  justify-content: space-around;
-  margin: 1rem 0;
-}
-
-.nav__bar a {
-  color: white;
-  font-weight: bold;
-  font-size: small;
-}
-
-.nav__bar ul li {
-  color: transparent;
-}
-
 /*MAIN INDEX*/
 .hero {
   background-image: url(../img/index_background.jpg);
@@ -312,22 +286,6 @@ header {
 
 /*MEDIA QUERIES*/
 @media (min-width: 768px) {
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: auto;
-    position: relative;
-  }
-
-  .header__container {
-    width: 90%;
-  }
-
-  .nav__bar li a {
-    margin: 0 3rem 0 0;
-  }
-
   .arrow__down {
     margin-top: 15rem;
   }
@@ -355,27 +313,9 @@ header {
   .contact__container {
     width: 80%;
   }
-
-  .hero__tittle {
-    font-size: 2rem;
-    padding-right: 2.5rem;
-  }
-
-  .hero__text {
-    font-size: 1.4rem;
-  }
 }
 
 @media (min-width: 1024px) {
-  .nav__bar a {
-    font-size: large;
-  }
-
-  .header__container img {
-    width: 100px;
-    margin-right: 9rem;
-  }
-
   .hero {
     height: 700px;
   }
