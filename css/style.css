@@ -20,3 +20,28 @@
   background-image: url(../img/stadium.jpg);
   background-size: cover;
 }
+
+.bg__galeria {
+  background-image: url(../img/black-water.jpg);
+  background-size: cover;
+}
+
+.bg__historia {
+  background-image: url(../img/sand_black.jpg);
+}
+
+.bg__tablas {
+  background-image: url(../img/shore_black.jpg);
+}
+
+/*MEDIA QUERIES*/
+@media (min-width: 1024px) {
+  #bg__img {
+    height: 570px;
+  }
+
+  iframe {
+    width: 530px;
+    height: 400px;
+  }
+}

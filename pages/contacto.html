@@ -71,69 +71,30 @@
 
     <!--FORMULARIO-->
     <main>
-      <section class="contact__section">
-        <div class="contact__container">
-          ><h1 class="contact__tittle">Contactanos si pensas que tu equipo tiene lo necesario</h1>
-          <form action="" class="contacto-form">
-            <fieldset>
-              <legend>Contacto</legend>
-              <label for="Nombre">Nombre:</label>
-              <input
-                type="text"
-                name="Nombre"
-                id="Nombre"
-                placeholder="Escriba su nombre aquí"
-              />
-              <label for="Apellido">Apellido:</label>
-              <input
-                type="text"
-                name="Apellido"
-                id="Apellido"
-                placeholder="Escriba su apellido aquí"
-              />
-              <br />
-              <label for="Email">Email:</label>
-              <input
-                type="text"
-                name="Email"
-                id="Email"
-                placeholder="Escriba su Email aquí"
-              />
-              <label for="Teléfono">Teléfono:</label>
-              <input
-                type="text"
-                name="Teléfono"
-                id="Teléfono"
-                placeholder="Escriba su teléfono aquí"
-              />
+      <section class="container">
+        <div class="row">
+          <div class="col">
+          <h1 class="text-center text-light"> Contactanos si pensas que tu equipo tiene lo necesario </h1>
+          <div><label for="nombreInput" class="form-label" >Nombre</label>
+          <input id="nombreInput" class="form-control" placeholder="Escribe aquí tu nombre">
+</div>
+          <div><label for="apellidoInput" class="form-label" >Apellido</label>
+          <input id="apellidoInput" class="form-control" placeholder="Escribe aquí tu apellido"></div>
+          
 
-              <div>Hombre</div>
-              <input type="radio" name="sexo" value="Hombre" />
-              <div>Mujer</div>
-              <input type="radio" name="sexo" value="Mujer" />
-              <div>Acepta los términos y condiciones</div>
-              <input type="checkbox" name="acepta" value="1" required />
-              <br />
-              <select name="talles" id="talles">
-                <option value="L">Large</option>
-                <option value="M">Medium</option>
-                <option value="S">Small</option>
-              </select>
-              <br />
-              <label for="mensaje">Mensaje</label>
-              <br />
-              <textarea
-                name="mensaje"
-                id="mensaje"
-                cols="30"
-                rows="10"
-                placeholder="Escriba su mensaje aquí"
-              ></textarea>
-              <br />
-              <input type="submit" value="Enviar" />
-              <input type="reset" value="Limpiar Formulario" />
-            </fieldset>
-          </form>
+          <div><label for="telefonoInput" class="form-label" >Teléfono</label>
+          <input id="telefonoInput" class="form-control" placeholder="Escribe aquí tu número"></div>
+          
+
+          <div><label for="emailInput" class="form-label" >Email</label>
+          <input id="emailInput" class="form-control" placeholder="Escribe aquí tu email"></div>
+          
+
+
+
+
+
+          </div>
         </div>
       </section>
     </main>
