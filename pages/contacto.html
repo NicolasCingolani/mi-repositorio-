@@ -30,71 +30,101 @@
     />
     <title>Copa Libertadores</title>
 
-    <!-- ANIMACIONES-->
   </head>
 
   <body>
     <!-- HEADER -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">
-          <img src="../img/logo.png" width="100" alt="LOGO" />
-        </a>
-        <button
-          class="navbar-toggler bg-light"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navMenu"
-        >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/logo.png" width="100" alt="LOGO" />
+          </a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navMenu">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navMenu">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
-            <li class="nav-item ">
-              <a class="nav-link text-light" aria-current="page" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="./historia.html">Historia</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link text-light" href="./tablas.html">Tablas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="./galeria.html">Galeria</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="./contacto.html">Contacto</a>
-            </li>
+          </button>
+          <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
+              <li class="nav-item ">
+                <a class="nav-link text-light" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./tablas.html">Tablas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./contacto.html">Contacto</a>
+              </li>
     </header>
 
     <!--FORMULARIO-->
-    <main>
-      <section class="container">
+    <main class="bg__contacto">
+      <section class="container py-5">
+        <h1 class="text-light text-center py-3">Contactanos si pensas que tu equipo tiene lo necesario</h1>
         <div class="row">
-          <div class="col">
-          <h1 class="text-center text-light"> Contactanos si pensas que tu equipo tiene lo necesario </h1>
-          <div><label for="nombreInput" class="form-label" >Nombre</label>
-          <input id="nombreInput" class="form-control" placeholder="Escribe aquí tu nombre">
-</div>
-          <div><label for="apellidoInput" class="form-label" >Apellido</label>
-          <input id="apellidoInput" class="form-control" placeholder="Escribe aquí tu apellido"></div>
-          
+          <div class="col">               
+            <div class="shadow-lg p-3 mb-5 mt-4 bg-body rounded">                                    
+              <div class="p-3 mb-2 bg-primary bg-gradient fw-bold text-white">Formulario</div>
+                <form class="row g-3 needs-validation" novalidate>
+                  <div class="col-md-4">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                    <!-- Mensajes para validación   -->
+                    <div class="valid-feedback">¡Campo válido!</div>
+                    <div class="invalid-feedback">Debe completar los datos.</div>
+                  </div>
+                  
+                  <div class="col-md-4">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" value="" required>
+                    <!-- Mensajes para validación   -->
+                    <div class="valid-feedback">¡Campo válido!</div>
+                    <div class="invalid-feedback">Debe completar los datos.</div>
+                  </div>
 
-          <div><label for="telefonoInput" class="form-label" >Teléfono</label>
-          <input id="telefonoInput" class="form-control" placeholder="Escribe aquí tu número"></div>
-          
+                  <div class="col-md-4">
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <input type="text" class="form-control" id="telefono" value="" required>
+                    <!-- Mensajes para validación   -->
+                    <div class="valid-feedback">¡Campo válido!</div>
+                    <div class="invalid-feedback">Debe completar los datos.</div>
+                  </div>
 
-          <div><label for="emailInput" class="form-label" >Email</label>
-          <input id="emailInput" class="form-control" placeholder="Escribe aquí tu email"></div>
-          
+                  <div class="col-md-4">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="email" value="" required>
+                    <!-- Mensajes para validación   -->
+                    <div class="valid-feedback">¡Campo válido!</div>
+                    <div class="invalid-feedback">Debe completar los datos.</div>
+                  </div>
 
-
-
-
-
-          </div>
+                  <div class="col-md-3">
+                    <label for="pais" class="form-label">País</label>
+                      <select class="form-select" id="pais" required>
+                        <option selected disabled value="">Seleccione...</option>
+                        <option>Ecuador</option>
+                        <option>Colombia</option>
+                        <option>Perú</option>
+                        <option>Chile</option>
+                        <option>Argentina</option>
+                      </select>
+                      <!-- Mensajes para validación   -->
+                      <div class="valid-feedback">¡Campo válido!</div>
+                      <div class="invalid-feedback">Debe completar los datos.</div>
+                  </div>                       
+                  <button class="btn btn-warning fw-bold" type="submit">Enviar</button>                       
+                </form>
+              </div>
+            </div>
         </div>
       </section>
     </main>
@@ -102,10 +132,10 @@
     <!--Footer-->
     <footer class="bg-dark pt-4">
       <div class="container bg-dark py-3">
-          <div class="row"> 
-            <div class="col-md">
+        <div class="row"> 
+          <div class="col-md">
             <h3 class="text-center text-light">Nuestras redes sociales:</h3>
-            </div>
+          </div>
             <div class="col text-center icons__stlye">
               <a href="https://www.facebook.com/CopaLibertadores/"
                 ><i class="fab fa-facebook"></i
@@ -116,14 +146,15 @@
               <a href="https://www.instagram.com/libertadores/"
                 ><i class="fab fa-instagram"></i
               ></a>
-              </div>
-          </div>
-      </div>
+            </div>
+        </div>
       </div>
       <div class="text-center bg-secondary text-light">
         2021 © Copa Libertadores | Nicolás Cingolani
       </div>
     </footer>
+
+    
     <!--Bootstrap Js-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
