@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-nicolas-cingolani",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasCingolani/mi-repositorio-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasCingolani/mi-repositorio-/issues"
+  },
+  "homepage": "https://github.com/NicolasCingolani/mi-repositorio-#readme"
+}
