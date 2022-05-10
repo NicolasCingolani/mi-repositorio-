@@ -1,66 +1,97 @@
+.navbar-color {
+  background-color: black; }
+
+.footer {
+  border-top: solid 1px white; }
+  .footer .footer-color {
+    background-color: black; }
+    .footer .footer-color .copyright-bg-color {
+      background-color: #292929; }
+
 #bg__img {
-  background-image: url(../img/index_background.jpg);
+  background: rgba(0, 0, 0, 0.1) url(../img/index_background.jpg);
   background-size: cover;
   background-position: center;
-  height: 450px;
-}
-
-.card__border {
-  border: solid 1px white;
-  border-radius: 20px;
-  overflow: hidden;
-  transition: all ease-out 0.2s;
-}
-.card__border:hover {
-  transform: scale(1.05);
-}
+  background-blend-mode: darken;
+  height: 450px; }
 
 #bg__img2 {
-  background-image: url(../img/stadium.jpg);
+  background: rgba(0, 0, 0, 0.5) url(../img/stadium.jpg);
   background-size: cover;
-}
+  background-position: center;
+  background-blend-mode: darken; }
 
 .bg__galeria {
-  background-image: url(../img/black-water.jpg);
+  background: rgba(0, 0, 0, 0.5) url(../img/black-water.jpg);
   background-size: cover;
-}
+  background-position: center;
+  background-blend-mode: darken; }
 
 .bg__historia {
-  background-image: url(../img/sand_black.jpg);
+  background: rgba(0, 0, 0, 0.5) url(../img/sand_black.jpg);
   background-size: cover;
-}
+  background-position: center;
+  background-blend-mode: darken; }
 
 .bg__tablas {
-  background-image: url(../img/shore_black.jpg);
+  background: rgba(0, 0, 0, 0.5) url(../img/shore_black.jpg);
   background-size: cover;
-}
+  background-position: center;
+  background-blend-mode: darken; }
 
 .bg__contacto {
-  background-image: url(../img/black-water.jpg);
+  background: rgba(0, 0, 0, 0.5) url(../img/black-water.jpg);
   background-size: cover;
-}
+  background-position: center;
+  background-blend-mode: darken; }
+
+.fa-twitter {
+  color: #00b3e0;
+  width: 30px; }
+  .fa-twitter:hover {
+    transform: scale(1.5); }
+
+.fa-facebook {
+  color: #0040c1;
+  width: 30px; }
+  .fa-facebook:hover {
+    transform: scale(1.5); }
+
+.fa-instagram {
+  color: #cc0bee;
+  width: 30px; }
+  .fa-instagram:hover {
+    transform: scale(1.5); }
+
+.card__border, .card__border-est, .card__border-sl {
+  border: solid 2px #ecae04;
+  background-color: #0a052a;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s; }
+  .card__border:hover, .card__border-est:hover, .card__border-sl:hover {
+    transform: scale(1.05); }
+
+.card__border-est {
+  border-color: white;
+  background-color: red; }
+
+.card__border-sl {
+  border-color: red;
+  background-color: #0a052a; }
 
 /*MEDIA QUERIES*/
 @media (min-width: 1024px) {
   #bg__img {
-    height: 570px;
-  }
-
+    height: 570px; }
   iframe {
     width: 530px;
-    height: 400px;
-  }
-
+    height: 400px; }
   .bg__contacto {
-    height: 570px;
-  }
-}
+    height: 570px; } }
+
 @media (max-width: 500px) {
   iframe {
     width: 280px;
     height: 180px;
-    margin-bottom: 1rem;
-  }
-}
-
-/*# sourceMappingURL=style.css.map */
+    margin-bottom: 1rem; } }

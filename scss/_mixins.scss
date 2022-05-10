@@ -1,0 +1,36 @@
+@mixin bg__style {
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+}
+
+#bg__img {
+  background: rgba(0, 0, 0, 0.1) url(../img/index_background.jpg);
+  @include bg__style;
+  height: 450px;
+}
+
+#bg__img2 {
+  background: rgba(0, 0, 0, 0.5) url(../img/stadium.jpg);
+  @include bg__style;
+}
+
+.bg__galeria {
+  background: rgba(0, 0, 0, 0.5) url(../img/black-water.jpg);
+  @include bg__style;
+}
+
+.bg__historia {
+  background: rgba(0, 0, 0, 0.5) url(../img/sand_black.jpg);
+  @include bg__style;
+}
+
+.bg__tablas {
+  background: rgba(0, 0, 0, 0.5) url(../img/shore_black.jpg);
+  @include bg__style;
+}
+
+.bg__contacto {
+  background: rgba(0, 0, 0, 0.5) url(../img/black-water.jpg);
+  @include bg__style;
+}

@@ -1,5 +1,15 @@
-$font-weights: (
-  "regular": 400,
-  "medium": 500,
-  "bold": 700,
+$redes: (
+  twitter: #00b3e0,
+  facebook: #0040c1,
+  instagram: #cc0bee,
 );
+
+@each $red, $color in $redes {
+  .fa-#{$red} {
+    color: $color;
+    width: 30px;
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+}

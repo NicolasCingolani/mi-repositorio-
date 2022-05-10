@@ -1,0 +1,24 @@
+/*MEDIA QUERIES*/
+
+@media (min-width: 1024px) {
+  #bg__img {
+    height: 570px;
+  }
+
+  iframe {
+    width: 530px;
+    height: 400px;
+  }
+
+  .bg__contacto {
+    height: 570px;
+  }
+}
+
+@media (max-width: 500px) {
+  iframe {
+    width: 280px;
+    height: 180px;
+    margin-bottom: 1rem;
+  }
+}

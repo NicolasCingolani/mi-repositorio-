@@ -1,4 +1,23 @@
-.centrar {
-  text-align: center;
-  align-items: center;
+.card__border {
+  border: solid 2px rgb(236, 174, 4);
+  background-color: rgb(10, 5, 42);
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.card__border-est {
+  @extend .card__border;
+  border-color: white;
+  background-color: red;
+}
+
+.card__border-sl {
+  @extend .card__border;
+  border-color: red;
+  background-color: rgb(10, 5, 42);
 }
