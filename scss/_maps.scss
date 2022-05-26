@@ -7,7 +7,7 @@ $redes: (
 @each $red, $color in $redes {
   .fa-#{$red} {
     color: $color;
-    width: 30px;
+    width: 50px;
     &:hover {
       transform: scale(1.5);
     }

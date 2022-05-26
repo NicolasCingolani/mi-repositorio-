@@ -2,11 +2,11 @@
   background-color: black; }
 
 .footer {
-  border-top: solid 1px white; }
-  .footer .footer-color {
-    background-color: black; }
-    .footer .footer-color .copyright-bg-color {
-      background-color: #292929; }
+  border-top: solid 1px white;
+  background-color: black; }
+
+.copyright-bg-color {
+  background-color: #292929; }
 
 #bg__img {
   background: rgba(0, 0, 0, 0.1) url(../img/index_background.jpg);
@@ -47,19 +47,19 @@
 
 .fa-twitter {
   color: #00b3e0;
-  width: 30px; }
+  width: 50px; }
   .fa-twitter:hover {
     transform: scale(1.5); }
 
 .fa-facebook {
   color: #0040c1;
-  width: 30px; }
+  width: 50px; }
   .fa-facebook:hover {
     transform: scale(1.5); }
 
 .fa-instagram {
   color: #cc0bee;
-  width: 30px; }
+  width: 50px; }
   .fa-instagram:hover {
     transform: scale(1.5); }
 
